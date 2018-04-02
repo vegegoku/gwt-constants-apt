@@ -7,5 +7,6 @@ import java.lang.annotation.*;
 @Documented
 public @interface Constants {
     String[] locales() default {};
+
     String defaultLocale() default "";
 }

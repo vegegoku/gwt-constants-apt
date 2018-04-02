@@ -2,10 +2,10 @@ package com.progressoft.brix.domino.constants;
 
 import com.google.gwt.i18n.client.Constants;
 
-@com.progressoft.brix.domino.constants.Constants(locales = {"en","fr"}, defaultLocale = "en")
+@com.progressoft.brix.domino.constants.Constants(locales = {"en", "fr"}, defaultLocale = "en")
 public interface WithDefaultLocale extends Constants {
 
-    WithDefaultLocale INSTANCE= WithDefaultLocale_factory.create();
+    WithDefaultLocale INSTANCE = WithDefaultLocale_factory.create();
 
     @DefaultStringValue("StockWatcher")
     String stockWatcher();

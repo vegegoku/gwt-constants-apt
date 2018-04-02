@@ -7,6 +7,6 @@ import java.util.Properties;
 public class ConstantsInfo {
 
     private Properties defaultResource;
-    private Map<String, Properties> localeResource=new HashMap<>();
+    private Map<String, Properties> localeResource = new HashMap<>();
 
 }

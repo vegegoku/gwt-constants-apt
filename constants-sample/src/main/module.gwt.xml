@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <module>
-  <inherits name="com.google.gwt.user.User" />
-  <inherits name="com.google.gwt.user.theme.clean.Clean" />
-  <inherits name="com.google.gwt.i18n.I18N"/>
+    <inherits name="com.google.gwt.user.User"/>
+    <inherits name="com.google.gwt.user.theme.clean.Clean"/>
+    <inherits name="com.google.gwt.i18n.I18N"/>
 
-  <source path="" />
+    <source path=""/>
 
-  <set-property name="user.agent" value="safari" />
-  <extend-property name = "locale" values ="fr,en"/>
+    <set-property name="user.agent" value="safari"/>
+    <extend-property name="locale" values="fr,en"/>
 
-  <!--<set-property name="locale" value="en"/>-->
+    <!--<set-property name="locale" value="en"/>-->
 
 </module>

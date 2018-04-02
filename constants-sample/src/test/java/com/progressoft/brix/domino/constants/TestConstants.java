@@ -24,96 +24,96 @@ import java.util.Map;
 @Constants
 public interface TestConstants extends com.google.gwt.i18n.client.Constants {
 
-	boolean booleanFalse();
+    boolean booleanFalse();
 
-	boolean booleanTrue();
+    boolean booleanTrue();
 
-	double doubleNegMax();
+    double doubleNegMax();
 
-	double doubleNegMin();
+    double doubleNegMin();
 
-	double doubleNegOne();
+    double doubleNegOne();
 
-	double doubleOne();
+    double doubleOne();
 
-	double doublePi();
+    double doublePi();
 
-	double doublePosMax();
+    double doublePosMax();
 
-	double doublePosMin();
+    double doublePosMin();
 
-	double doubleZero();
+    double doubleZero();
 
-	float floatNegMax();
+    float floatNegMax();
 
-	float floatNegMin();
+    float floatNegMin();
 
-	float floatNegOne();
+    float floatNegOne();
 
-	float floatOne();
+    float floatOne();
 
-	float floatPi();
+    float floatPi();
 
-	float floatPosMax();
+    float floatPosMax();
 
-	float floatPosMin();
+    float floatPosMin();
 
-	float floatZero();
+    float floatZero();
 
-	@Key("string")
-	String getString();
+    @Key("string")
+    String getString();
 
-	int intMax();
+    int intMax();
 
-	int intMin();
+    int intMin();
 
-	int intNegOne();
+    int intNegOne();
 
-	int intOne();
+    int intOne();
 
-	int intZero();
+    int intZero();
 
-	Map<String, String> mapABCD();
+    Map<String, String> mapABCD();
 
-	Map<String, String> mapBACD();
+    Map<String, String> mapBACD();
 
-	Map<String, String> mapBBB();
+    Map<String, String> mapBBB();
 
-	// raw type test
-	@SuppressWarnings("unchecked")
-	Map mapDCBA();
+    // raw type test
+    @SuppressWarnings("unchecked")
+    Map mapDCBA();
 
-	Map<String, String> mapEmpty();
+    Map<String, String> mapEmpty();
 
 //	Map<String, String> mapWithMissingKey();
 
-	Map<String, String> mapXYZ();
+    Map<String, String> mapXYZ();
 
-	String[] stringArrayABCDEFG();
+    String[] stringArrayABCDEFG();
 
-	String[] stringArraySizeOneEmptyString();
+    String[] stringArraySizeOneEmptyString();
 
-	String[] stringArraySizeOneWithBackslashX();
+    String[] stringArraySizeOneWithBackslashX();
 
-	String[] stringArraySizeOneX();
+    String[] stringArraySizeOneX();
 
-	String[] stringArraySizeThreeAllEmpty();
+    String[] stringArraySizeThreeAllEmpty();
 
-	String[] stringArraySizeThreeWithDoubleBackslash();
+    String[] stringArraySizeThreeWithDoubleBackslash();
 
-	String[] stringArraySizeTwoBothEmpty();
+    String[] stringArraySizeTwoBothEmpty();
 
-	String[] stringArraySizeTwoWithEscapedComma();
+    String[] stringArraySizeTwoWithEscapedComma();
 
-	String stringDoesNotTrimTrailingThreeSpaces();
+    String stringDoesNotTrimTrailingThreeSpaces();
 
-	String stringEmpty();
+    String stringEmpty();
 
-	String stringJapaneseBlue();
+    String stringJapaneseBlue();
 
-	String stringJapaneseGreen();
+    String stringJapaneseGreen();
 
-	String stringJapaneseRed();
+    String stringJapaneseRed();
 
-	String stringTrimsLeadingWhitespace();
+    String stringTrimsLeadingWhitespace();
 }
