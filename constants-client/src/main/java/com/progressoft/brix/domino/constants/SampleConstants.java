@@ -3,7 +3,7 @@ package com.progressoft.brix.domino.constants;
 import com.google.gwt.core.client.GWT;
 import com.google.gwt.i18n.client.Constants;
 
-@com.progressoft.brix.domino.constants.Constants(locales = {"en","fr"})
+//@com.progressoft.brix.domino.constants.Constants(locales = {"en","fr"})
 public interface SampleConstants extends Constants {
 
     SampleConstants INSTANCE= GWT.create(SampleConstants.class);
@@ -30,4 +30,18 @@ public interface SampleConstants extends Constants {
     int count();
 
     String[] stringArray();
+
+    String inenonly();
+
+    @DefaultStringValue("from annotation")
+    String inenandannotation();
+
+    @DefaultStringValue("from annotation only")
+    String inannotationonly();
+
+    String indefaultonly();
+
+    @DefaultStringValue("from annotation")
+    String indefaultandannotation();
+
 }

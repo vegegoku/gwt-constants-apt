@@ -15,7 +15,8 @@
  */
 package com.progressoft.brix.domino.constants;
 
-import com.google.gwt.i18n.client.LocalizableResource.Generate;
+import com.google.gwt.core.client.GWT;
+import hep.aida.ref.Test;
 
 import java.util.Map;
 
@@ -25,6 +26,8 @@ import java.util.Map;
  */
 @Constants
 public interface TestConstants extends com.google.gwt.i18n.client.Constants {
+
+  TestConstants INSTANCE= GWT.create(TestConstants.class);
 
   boolean booleanFalse();
 
@@ -87,7 +90,7 @@ public interface TestConstants extends com.google.gwt.i18n.client.Constants {
 
   Map<String, String> mapEmpty();
 
-  // Map<String, String> mapWithMissingKey();
+//   Map<String, String> mapWithMissingKey();
 
   Map<String, String> mapXYZ();
 

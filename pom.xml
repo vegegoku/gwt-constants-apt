@@ -67,6 +67,9 @@
           <version>1.0-rc-8</version>
           <extensions>true</extensions>
           <configuration>
+            <jvmArgs>
+              <jvmArg>-agentlib:jdwp=transport=dt_socket,server=y,suspend=n,address=8000</jvmArg>
+            </jvmArgs>
             <sourceLevel>1.8</sourceLevel>
             <failOnError>true</failOnError>
             <compilerArgs>

@@ -8,8 +8,8 @@
 
   <entry-point class="com.progressoft.brix.domino.constants.App" />
   <set-property name="user.agent" value="safari" />
-  <extend-property name = "locale" values ="fr,en"/>
+  <extend-property name = "locale" values ="fr,en,en_US"/>
 
-  <!--<set-property name="locale" value="en"/>-->
+  <set-property name="locale" value="en_US"/>
 
 </module>
